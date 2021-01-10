@@ -2,6 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import random
 
 
 def print_hi(name):
@@ -30,12 +31,16 @@ print(x, y, z)
 
 x = "awesome"
 
+# def myfunc1():
+#     x = "fantastic"
+#     print("Python is " + x)
 
-def myfunc1():
-    x = "fantastic"
-    print("Python is " + x)
 
-
-myfunc1()
+# myfunc1()
 
 print("Python is\n" + x)
+print(type(x))
+x = range(6)
+print(x)
+
+print(random.randrange(1, 10))
