@@ -14,7 +14,7 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-print('helloworld!')
+print("hello_world!")
 if 5 > 2:
     print('5 is greater than 2.')
 
