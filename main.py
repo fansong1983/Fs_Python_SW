@@ -25,3 +25,17 @@ This is a multi-line comments
 Because no variable is assigned to this string!
 """
 # This is single line comment.
+x, y, z = 6, 'Tuesday', 'Marry'
+print(x, y, z)
+
+x = "awesome"
+
+
+def myfunc1():
+    x = "fantastic"
+    print("Python is " + x)
+
+
+myfunc1()
+
+print("Python is\n" + x)
