@@ -27,3 +27,4 @@ print(x, y)
 This is a multi-line comments
 Because no variable is assigned to this string!
 """
+# This is single line comment.
