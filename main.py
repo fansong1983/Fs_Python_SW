@@ -44,3 +44,8 @@ x = range(6)
 print(x)
 
 print(random.randrange(1, 10))
+a = "Hello, World!"
+print(a[1])  # str start from index 0.
+b = "Hello, World!"
+print(b[2:5])
+print(b[-5:-2])
