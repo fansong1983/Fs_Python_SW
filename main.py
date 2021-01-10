@@ -17,9 +17,6 @@ if __name__ == '__main__':
 print("hello_world!")
 if 5 > 2:
     print('5 is greater than 2.')
-
-if 2 > 5:
-    print('Error.')
 x = 5
 y = 'Test'
 print(x, y)
