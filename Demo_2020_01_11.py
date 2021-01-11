@@ -83,3 +83,38 @@ for x in demo_set:
     print(x)
 # Once the collection is created, you cannot change items, but you can add new items.
 print("------------------demo_set_end--------------------")
+print("------------------demo_dictionary_start--------------------")
+demo_dict = {"brand": "Porsche",
+             "model": "911",
+             "year": 1983
+             }
+print(demo_dict)
+dict_name = demo_dict["brand"]
+print(dict_name)
+demo_dict["year"] = 2020
+print(demo_dict)
+
+for x in demo_dict:
+    print(x)
+for x in demo_dict:
+    print(demo_dict[x])
+for x in demo_dict.values():
+    print(x)
+for x, y in demo_dict.items():
+    print(x, y)
+myfamily = {
+    "child1": {
+        "name": "Phoebe Adele",
+        "year": 2002
+    },
+    "child2": {
+        "name": "Jennifer Katharine",
+        "year": 1996
+    },
+    "child3": {
+        "name": "Rory John",
+        "year": 1999
+    }
+}
+print(myfamily)
+print("------------------demo_dictionary_end--------------------")
